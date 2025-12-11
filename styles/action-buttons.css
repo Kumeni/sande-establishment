@@ -1,0 +1,70 @@
+.action-buttons{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+}
+
+.action-buttons{
+    grid-template-columns: repeat(2, auto);
+    justify-content: right;
+}
+
+.action-buttons a{
+    padding: 1rem 2rem;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;;
+}
+
+@media (max-width: 846px) and (min-width: 767px){
+    .action-buttons a{
+        padding: 1rem 1.5rem;
+    }
+}
+
+@media (max-width: 455px){
+    .action-buttons a{
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width: 375px){
+    .action-buttons a{
+        padding: 1rem 1.3rem;
+    }
+}
+.learn-more{
+    background-color: transparent;
+    color: black;
+}
+
+.contact-us{
+    margin-left: auto;
+    position: relative;
+    overflow: hidden;
+    background-color: #28a745;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    box-shadow: 1px 1px 6px rgb(60, 60, 60);
+    /* animation: box-shadow-animation 1s linear alternate-reverse infinite; */
+}
+
+@keyframes box-shadow-animation{
+    0%{
+        transform: scale(1);
+        box-shadow: 1px 1px 6px rgb(60, 60, 60);
+    }
+
+    50%{
+        transform: scale(0.97);
+        box-shadow: 1px 1px 3px rgb(60, 60, 60);
+    }
+
+    100%{
+        transform: scale(1);
+        box-shadow: 1px 1px 6px rgb(60, 60, 60);
+    }
+}

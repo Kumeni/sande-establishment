@@ -1,0 +1,19 @@
+.three-images{
+    grid-template-columns: repeat(4, auto);
+    column-gap: 1rem;
+}
+
+.three-images img{
+    top:0px !important;
+}
+
+.banner .banner-image-container{
+    max-width: 95vw;
+    margin: auto;
+}
+
+.auto-scroll{
+    width: 100vw !important;
+    margin:1rem auto !important;
+    justify-items: center;
+}
